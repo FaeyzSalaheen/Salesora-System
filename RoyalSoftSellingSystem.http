@@ -1,0 +1,6 @@
+@RoyalSoftSellingSystem_HostAddress = http://localhost:5231
+
+GET {{RoyalSoftSellingSystem_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
