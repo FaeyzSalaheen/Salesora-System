@@ -13,7 +13,6 @@ namespace RoyalSoftSellingSystem.Controllers
         {
             _service = service;
         }
-
         [HttpPost]
         public async Task<IActionResult> CreateInvoice([FromBody] PurchaseInvoiceDto dto)
         {
