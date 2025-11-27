@@ -15,9 +15,9 @@ namespace RoyalSoftSellingSystem.Services
             }
             public async Task<(bool Success, string Message)> CreateInvoiceAsync(SalesInvoiceDto dto)
             {
-                // Implementation similar to PurchaseInvoiceService but for SalesInvoice
-                // Validate dto, check customer existence, create invoice and details,
-                // calculate totals, handle transactions, and return success or error message.
+              
+
+
                 return (true, "Sales invoice created successfully");
             }
         }
